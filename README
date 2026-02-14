@@ -1,31 +1,21 @@
-Buraq v10.2: AI-Powered OSINT & Recon Framework
-Buraq is a high-performance reconnaissance tool designed for security researchers and penetration testers. It automates the discovery of subdomains, fingerprints Web Application Firewalls (WAF), and uses local AI to analyze risks.
+# Buraq v10.2: AI-Powered OSINT & Recon Framework
 
-🚀 Features
-Ghost-Finder Engine: Multithreaded subdomain enumeration for speed and accuracy.
+**Buraq** is a high-performance reconnaissance tool designed for security researchers and penetration testers. It automates the discovery of subdomains, fingerprints Web Application Firewalls (WAF), and uses local AI to analyze risks.
 
-Visual Recon: Automatic screenshot capture of discovered assets.
+## 🚀 Features
+* **Ghost-Finder Engine**: Multithreaded subdomain enumeration for speed and accuracy.
+* **Visual Recon**: Automatic screenshot capture of discovered assets using Playwright.
+* **AI Analysis**: Integrates with local LLMs (via Ollama) to prioritize security findings.
+* **Professional Reporting**: Generates clean PDF reports with embedded evidence.
 
-AI Analysis: Integrates with local LLMs (like Llama 3 via Ollama) to prioritize security findings.
+## 🛠️ Installation & Setup
+1. **Clone the repo:**
+   `git clone https://github.com/Rouhanrouf/Buraq-AI-OSINT.git`
+2. **Install Dependencies:**
+   `pip install playwright fpdf requests`
+   `playwright install`
+3. **Run the Scout:**
+   `python3 buraq_scout.py`
 
-Professional Reporting: Generates clean PDF reports with embedded evidence.
-
-🛠️ Installation & Setup
-Clone the repo:
-
-Bash
-
-git clone https://github.com/Rouhanrouf/Buraq-AI-OSINT.git
-Install Dependencies:
-
-Bash
-
-pip install playwright fpdf requests
-playwright install
-Run the Scout:
-
-Bash
-
-python3 buraq_scout.py
-🛡️ Disclaimer
+## 🛡️ Disclaimer
 This tool is for educational purposes and authorized security testing only.
